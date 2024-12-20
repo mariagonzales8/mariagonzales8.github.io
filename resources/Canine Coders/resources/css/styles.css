@@ -1,0 +1,259 @@
+html {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: transparent;
+    width: 100%;
+    color:  rgb(187, 130, 231);
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+nav {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 1.5rem;
+    color: black;
+   
+}
+nav ul {
+    margin: 0px 0px;
+    padding: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0px 5rem;
+   
+}
+@media only screen and (max-width: 1400px) {
+    nav {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 760px) {
+    nav {
+        font-size: 1rem;
+    }
+    
+    nav li {
+        margin: 0px 2.5rem;
+    }
+}
+@media only screen and (max-width: 560px) {
+    nav li {
+        margin: 0px 1rem;
+    }
+
+    @media only screen and (max-width: 460px) {
+        nav {
+            font-size: 0.5rem;
+        }
+        
+    }
+
+    
+}
+
+
+
+.laptop-dog-container {
+    margin: 0px ;
+    padding: 0px;
+    background-image: url("/Users/MariaGonzales/PROJECTS/Canine Coders/resources/images/cute-little-dog-impersonating-business-person 2copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: both;
+    width: 100%;
+    height: 60rem;
+}
+.laptop-dog-container .headline{
+    margin: 2rem 5rem 0px 25rem;
+    padding-top: 4rem;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1030px) {
+    .laptop-dog-container {
+        height: 40rem;
+    }
+    .laptop-dog-container .headline {
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    
+    .laptop-dog-container {
+        height: 35rem;
+    }
+    .laptop-dog-container .headline {
+        text-align: center;
+        font-size: 0.75rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    
+    .laptop-dog-container {
+        height: 25rem;
+    }
+    .laptop-dog-container .headline {
+        text-align: center;
+        font-size: 0.5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .laptop-dog-container {
+        height: 22rem;
+    
+    }
+    .laptop-dog-container .headline {
+        text-align: left;
+        padding-top: 1.5rem;
+        margin: 0px 0.5rem;
+        font-size: 0.4rem;
+    }
+}
+
+.join-us {
+    text-align: center;
+    background-color: rgb(187, 130, 231);
+    color:  rgb(219, 218, 148);
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 2.5rem;
+}
+.join-us p {
+    margin: 0px;
+    padding: 2rem 0px 2rem 0px;
+}
+
+@media only screen and (max-width: 860px) {
+    .join-us  {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .join-us  {
+        font-size: 1rem;
+    }
+     
+    .join-us p {
+        padding: 0.5rem 0px 0.5rem 0px;
+    }
+}   
+        
+.testimonial-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+}
+
+.test {
+    margin: 2rem 2rem;
+    display: flex;
+    width: 40%;
+    
+}
+.test p {
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1260px) {
+   
+    .testimonial-container {
+       height: 15rem;
+    }
+
+    .test p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .test p {
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .testimonial-container {
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+     }
+     
+     .test {
+       height: 50%;
+       margin: 1rem ;
+       width: 100%;
+       flex-direction: column;
+    }
+
+     .test img {
+        width: 100%;
+        height: 100%;
+     }
+}
+
+
+footer {
+    background-color: rgb(187, 130, 231);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 460px) {
+    footer p {
+        font-size: 0.75rem;
+    }
+}
