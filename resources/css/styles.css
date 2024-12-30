@@ -6,10 +6,12 @@ html {
     font-style: normal;
     color: rgb(107, 82, 7);
     background-color: rgb(225, 211, 196);
+   
 }
 
 body {
     min-height: 100%;
+   
   }
 
 header {
@@ -156,16 +158,16 @@ header a {
     
 }
 #picMG img {
-    width: 180px;
-    height: auto; 
+  width: 180px;
+  height: auto; 
 }
 
 #NameBio {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .contact {
-    position: relative;
-    top: 300px;
-    
+  position: relative;
+  top: 300px;
+  
 }
