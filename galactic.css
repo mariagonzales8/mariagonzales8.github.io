@@ -65,7 +65,7 @@ nav li {
 
 .image-container {
     display: flex;
-    background: url("ent_planets.jpg");
+    background: url(ent_planets.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
