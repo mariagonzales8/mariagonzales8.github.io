@@ -76,7 +76,7 @@ nav li{
 .laptop-dog-container {
     margin: 0px ;
     padding: 0px;
-    background-image: url("/Users/MariaGonzales/PROJECTS/Canine Coders/resources/images/cute-little-dog-impersonating-business-person 2copy.jpg");
+    background-image: url("cute-little-dog-impersonating-business-person 2copy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     resize: both;
