@@ -28,10 +28,12 @@ header a {
     text-decoration: none;
 }
 
+.MariaGonzales {
+  position: relative;
+  top: 300px;
+}
 
 .MariaGonzales p {
-    position: relative;
-    top: 300px;
     font-size: 2em;
     text-align: left;
     margin: 0px;
@@ -44,13 +46,16 @@ header a {
     justify-content: center;
     position: relative;
     top: 300px;
+    width: auto;
+    height: auto;
+
 }
 
 .icon img {
-    width: 180px;
-    height: 180px;
-    margin-right: 20px;
-    
+  width: 180px;
+  height: 180px;
+  margin-right: 20px;
+  
 }
 
 .text-box1 {
@@ -170,4 +175,77 @@ header a {
   position: relative;
   top: 300px;
   
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .MariaGonzales {
+    text-align: center;
+    margin-left: 0px;
+    width: 500px;
+  }
+    
+  .icon-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon img{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .MariaGonzales p {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .icon-container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .icon img{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .MariaGonzales {
+    width: 1024px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .webdesign {
+    width: 1024px;
+  }
+  .webdesign p {
+    text-align: right;
+  }
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+  .MariaGonzales {
+    width: 2560px;
+  }
+
+  .MariaGonzales p {
+    margin-left: 65px;
+    text-align: left;
+  }
+
+  .icon img{
+    width: 325px;
+    height: 325px;
+  }
+
+  .webdesign p {
+    margin-right: 80px;
+  }
+
 }
